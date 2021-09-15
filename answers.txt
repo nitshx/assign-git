@@ -1,7 +1,9 @@
-1. Add document expansions for records that would prefer not to embed the source control helpfully. As these records live in your workspace, however they are not intended for source control, you will need to add different things over the long haul. In the event that you don't, you will see many messages in your git status with respect to records that have not yet been added to the archive, which can be disagreeable. It's surprisingly more terrible on the off chance that they are added by a partner and you take them when you resign, and you don't need the path records from someone else to be in your s
+1. Add document expansions for records that would prefer not to embed the source control helpfully. As these records live in your workspace, however they are not intended for source control, you will need to add different things over the long haul. In the event that you don't, you will see many messages in your git status with respect to records that have not yet been added to the archive, which can be disagreeable. It's surprisingly more terrible on the off chance that they are added by a partner and you take them when you resign, and you don't need the path records from someone else to be in your system. 
+
+Files such as Compiled class file, Log File, and Project files which are created on a contributors system are included in gitignore.
 
 2. When you merge or rebase against a branch that is simply ahead of the one you checked out, Git performs a fast-forward.
 
 3. Each developer can branch out from the main code base and separate their work from other developers via branching. It also makes it easier for Git to merge versions later on.
 
-4. You are free to create as many remote repositories as you like.
+4. You are free to create as many remote repositories as you like. It is recommended that every contributor must have their own remote repository and merge it to main once approved.
